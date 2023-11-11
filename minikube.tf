@@ -5,8 +5,7 @@ module "minikube" {
   cluster_name  = "roboshop"
   aws_instance_type = "t3.medium"
   ssh_public_key = "C:/Users/Asus/Desktop/ssh/chandra.pub"  
-  aws_subnet_id = "	subnet-04cc2f385e219a7f5"
-#   ami_image_id = "ami-b81dbfc5"
+  aws_subnet_id = "subnet-0bfd3ebc23171dad0"
   hosted_zone = "joindevops.cloud"
   hosted_zone_private = false
 
